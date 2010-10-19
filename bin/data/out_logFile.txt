@@ -1,0 +1,900 @@
+julioterra@gmail com
+Eating
+Friends
+Working on ROY
+finding cable for ROY
+heart rate monitor
+lilypad 
+for 
+ROY
+heart
+rate
+monitor
+muji
+store
+nyc
+hours
+ROY
+heart 
+heart
+rate
+Break
+infrared
+infrared
+greener
+gadgets
+Here is some information about the guest speaker for the Data Viz class that is coming by on Thursday night  His name is and he will be at ITP tomorrow at 7 30 in speaking in the adjunct office  I   
+
+I hope you get a chance to go and enjoy  I'm pal on stopping by the quantified self meetup so I'll be missing this one 
+
+All the best
+band
+adjustable
+dual wire
+writs
+wristband
+dual wristband
+wrist  band
+wristband
+wrist 
+wrist band
+wrist bands
+conductive fabric
+chords
+round chords 
+dual conductor write
+Working on ROY prototype
+I think I may not go this weekend after all  I am going to decide tomorrow  
+Not sure how I would get up there thought
+Variables that hold timescale-related specs
+if times
+data is timestamped and array
+then adjust array based on
+time resolution that will be used for in milliseconds 
+standard time resolution as set by default variable                                                            
+change the time resolution temporarily
+Function a that enables changing time
+the time resolution temporarily                                       
+END DRAW FUNCTION
+CHANGE time  ME RESOLUTION FUNCTION
+CHANGE time  ME RESOLUTION FUNCTION
+END                          
+DEFINE NAVIGATION CLASS 
+This class holds all of the elements associated to navigation of the data   
+gps logger pro
+android
+gps
+log
+Weight 
+final 
+data
+datatypes
+holders
+static
+static
+static
+static
+static
+static
+Variables that help convert data
+extract specific data from data e format
+static
+static
+static variable in java
+Loading
+Data
+Data
+Took a break
+infrared proximity sensor
+public
+public
+display                                                                                               
+error reading first line in file
+more info
+title
+titles from                                                                                       
+title
+data field titles are                                                                 data
+Not including time
+including
+plus a timestamp
+times
+else
+LOAD FILE
+confirm name
+each field
+PREPARE DATA FIELDS  use field names and number to set-up data   
+prepare
+reading file
+looping through the buffer at reading number
+number
+load next line from the data file
+Adjust Array every readings
+resolution
+data resolution
+in case we have too many readings per second
+data only 
+read first line of data previous line that the first line is holds the title which has already been read of each field
+DEBUG - PRINT TO CONSOLE                                                                                                                                               
+going to bed
+Are yo around
+around today? We wanted to set up some of the sensors a in the later this afternoon that we can put them in the baths room in the next couple do  of days  We know we don't have all of them   but we thought we would start with what e  e have  hope you are feeling better-  - haven't seen you around the floor laterly  
+All the best Juliot lately
+FarmBridge meeting
+October 14 Meet Team Meeting
+Process Questions/Request  and Rune to inform team about when new 
+functionality is ready for review 
+and provide us with link the local server paths to those pages
+to confirm what 
+expectations regarding html template updates  what types of updates we should make to the
+during each round
+are expected
+October
+Meeting
+Notes
+Great
+Process Questions and Request
+Whenever new functionality
+becomes
+available
+send
+update
+rest
+team
+specific paths
+new content for review
+Confirm expectations regarding updates to the html templates that                           what types
+we should be making to the html templates as part of this
+current round
+For 
+General Ideas 
+At the beginning
+every meeting we should a 10/15 
+minute meeting to go over what the expectation
+are the goals and expectations 
+productivity goals for that session 
+PROCESS Q QUESTIONS AND RESQUESTS
+ROLES AND RESPONSIBILITIES
+lead the review of templates
+functionality and provide feedback regarding
+as issues on   Current will updated as needed
+section of the   GitHub
+develop
+lead de  update of templates
+html templates
+lead creating on of site map
+help from                                                                    in the
+and assign html template development 
+Noah to lead community outs reach o efforts
+project management and  wNot a problem  
+haven't been able to find Marko yet so don't have any sensors  I'll have the shared do  set-up before our meeting
+ROY
+ROY
+heart rate monitor
+These components suck  They are so
+extremely 
+onto a boards unless you have a specialized designed board  I have ruined three of these due to 
+types of u issues Unlike other components that you can solder a  and      and then desolder for  They need to be soldered onto 
+in other    
+to work   but they    headers easily rip off taking 
+them the connective ma  materials    area                                    and take the connective parts of the component 
+you better get these right the first time - otherwise you'll have to 
+out another 20 dollars
+I strongly
+wish someone would create a solution that has
+is easier to work with      
+you a have
+are have expert soldering abilities I would look somewhere else     for this
+sensor
+as Type Sensor Name
+Brand
+Model Costs Owner
+Owner
+Sensor Brand Sensor Model Overview
+Links Cost
+Owner
+O2 sensor
+ROY
+Sensor
+Gas Sensors
+Priority
+High
+Low
+Figaro
+Methane and Carbon Monoxide
+High
+Figaro
+High
+Purchased
+Yes
+Yes
+Yes
+No VOCs
+Primarily Ethanol
+Benzene
+High
+Figaro
+Carbon Oxyde
+No VOCs - Alcholo
+Tulene
+Zylene
+Formaldehyde sensor
+gas sensor
+futurlec
+figaro benzene sensor
+toulne
+sensor
+formaldehyde
+formaldehyde sensor air
+arduino
+ammonia
+arduino
+ammonia
+sensor
+Ammonia 
+Hydrogen Ethanol
+Toulene
+VOCS - 
+High Air Contaminants
+Vocs
+Organic Solvents
+VOC
+Methane
+Carbon Monoxide
+Iso-butane 
+Ethanol
+Hyrdrogen
+High
+teensy duino
+formaldehyde
+xylene
+toulune
+benzene
+trichloroform
+ammonia
+alcohol
+Acetone
+acetone
+Bioeffluents
+Ceiling
+Tiles
+Chlorinated Tap Water
+Clear
+Products
+Cosmetics
+Paints
+Paper Towels
+Priority
+High                                                                             High
+High
+Low
+High
+High
+acetone
+figaro
+sensor
+Acetone 
+Sensors
+High
+Ethanol
+Methane
+methane
+alcohol
+chloroform
+chloroform
+formaldehyde sensor
+formaldehyde sensor figaro
+Figaro
+Solvent
+Vapors
+High
+VOCs
+Methane
+Formaldehyde
+Yes
+Now                                 
+macau
+Team Here is
+here is a link to the spreadsheet I put together with the list of             a list of sensors 
+that we have and that we need  The second spreadsheet
+tab includes a list of the sensors that we are trying to find 
+meetup
+ROY
+Heart Rate Module
+heart rate monitor 
+sparkfun
+limited to a maximumcommand is limited                             
+got here
+library
+success
+end
+Transmission
+ROY
+take
+three
+Heart
+Rate
+Breakout
+arduino
+analog
+value
+bit
+depth
+algorithm
+Heart Rate Monitoring
+Testing 
+After having gone through three separate Polar Heart Rate Monitors I 
+decide 
+use the
+heart rate monitor
+Heart Rate Monitor Interface 
+ruined 
+my experience
+attempting to solder the
+Polar Heart Rate receiver
+was not designed
+has a very sensitive
+is very fragile
+hard to integrate into prototype circuit
+least for someone with my level of soldering and desoldering expertise
+In order to use the Polar Heart Rate
+Rate Monitor Interface 
+decide to
+leverage I2c
+rather than serial protocol
+I made this decision so that I could
+in order
+so that I could use 
+serial port from my arduino 
+to log data
+Here
+Wire Library 
+Examples
+Arduino
+Examples
+Expansion Port detailed exmaple
+Setting up
+Porlar Monitor
+Galvanic Skin Response
+I started out 
+using 
+rings of conductive fabric 
+Upgraded to 
+Next up I will be testing a set of
+dual-wrist band made for IT workers
+of conductive materials
+Then I
+use electrodes for medical machines
+The earthship is a unique approach to building sustainable green buildings    These structures are constructed primarily from recycled materials and are built to be a mostly self-sustaining from a food production
+energy and water standpoint  To top it all off they just look pretty cool and interesting 
+Well 
+architecture sustainability community design 
+ecology environment green home permaculture recycle
+earthship house grey water remediation
+how to
+natural
+Thanks for sharing this information  Ca  Do you have the video about these  houses? If so can I borrow sometime?
+One of the guys we met at RUST had i done an internship with these guys   and he was very excited about the work
+work 
+Julio
+Finding
+Making it Portable
+Found a pouch at Muji
+android GPS application code
+logger
+download files from URL using terminal
+curl
+svn checkout
+android gps
+log
+GPS 
+Tracker
+Leveraging code from
+Open GPS T Tracker Project
+eclipse
+google maps
+key
+finding errors
+errors
+error
+finding errors
+locate
+Library
+android
+Eclipse SDK
+eclipse
+find your
+eclipse
+locate
+mac
+Lunch
+ROY
+OTHERWISE
+just read the standard heart beat input                                                                    
+WHEN SERIAL DATA IS AVAILABLE read
+data from the serial port
+char
+into the array             
+if two or more bytes have been read then create 
+I2C command        
+from serial 
+Bytes command
+no response
+Call with Mom
+
+
+
+
+
+
+
+
+
+convert data from serial to a byte value                                                                         request data from heart rate sensor interface
+set number of expected 
+Number of analog sensor response bytes
+I2C response array sized to Com   command
+Analog for analog values
+for single reading
+Eating
+dinner
+ROY
+Absolutely 
+MOOD MAPPER
+Heart Rate
+Accelerometer & GSR Sensor Readings    
+Connection to
+important notes below regarding 
+set-up
+Arduino Code
+Baked Fresh For You
+Here is the Arduino code that we used this afternoon with your p Polar Heart Rate Sensor  Let me know if you have any questions 
+between Arduino
+I2C CONNECTION DETAILS
+data rate of con snection between Arduino and computer
+IC2 address of the HRMI interface
+GLOBAL VARIABLES  
+GLOBAL CONSTANTS
+ARDUINO SETUP
+OPEN THE WIRE AND SERIAL COMMUNICATION CHANNELS  
+reset counter                                                                 Heart heart
+loop analog
+here
+heart
+heart rate
+read data from HRMI - analog pins and heart rate               
+print time in milliseconds
+via         
+heart rate variables       
+accelerometer
+Command
+galvanic skin response variables 
+heart beat time stamp
+ROY
+Break
+did he ever get back to you here   regarding his 
+I wanted to install it as well and give it spin 
+Let me know what you find out 
+Thanks for letting me know about this event  I may be able to stop and will ask my biker friends if they want to join  Last month I did the TA Century Ride it took me about a little over 12 hours to complete the 100-miles   hope all is well with you
+by trying to move things around in my calendar
+I let me y  know as well                          
+It was a lot of un  fun
+though I could barely walk the day after 
+All the best Julio cTA to deliver letters to Bloomberg 
+at City Hall
+Were you able to share it with
+sensor documents with Eric? Let me know if you need to
+I checked the preferences and you should be able to add people
+viewer to this document 
+All
+public void
+create buffer reader
+nytimes com
+ROY
+roy
+ROY
+time conversion
+start time
+end time
+event name
+event description
+event photo
+call to parents
+with
+mom and dad
+photo of mom and dan start time
+end time
+event name
+list
+listening to Groove Armada event description 
+event photo  photo of record cover           
+end time 
+event name 
+event description 
+event photo
+watching being certain video
+being certain
+overview of content during this section of video screenshot                                                           
+event name 
+event description 
+event photo 
+end time
+talking to nick
+nick's photo          
+event name
+watching being certain video
+event description
+overview of content during this section of video                             vend
+end time  
+photo
+start time
+end time    
+while taking notes
+notes from
+image of notes from video                                                    
+event name 
+event description 
+event photo
+reading Friedman's op-ed
+photo
+screenshot of friedman piece
+dealing with computer issues
+screen
+shot of computer screen
+talking to jason and taking pictures
+18  picture taken                                                       Dowd's
+Dowd's
+groove armada black light
+pictures
+Robert Burton's video on Being
+about random ITP stuff
+Nisma happy birthday! 
+minutes         
+minute
+Mom and Dad
+Short Snack Break
+Chocolate Time
+Short 
+Short Snack Break 
+toblerone
+minute
+taking notes for
+during last 20 minutes
+Reading
+nytimes
+thomas friedman
+Aren't We Clever
+Solving Annoying Issues with Computer
+apple mac   
+computer issues
+mac
+macBookPro
+Talking to Jason and Chatting with Jason and Taking Pictures of set-up         Maureen Dowd's
+return true 
+else
+return false                                                                                               String
+new PImage
+import
+public String
+get
+return   
+String
+data 
+file name
+delimiter
+Notes about function
+if adjust resolution is set to 0 or less then the
+no time resolution adjustment is created  
+if the
+Data is set to false then setting is ignored                                  NOTES           
+file name needs to include full path public void 
+String filem name
+List
+return activity  Data     
+data is input into
+if data
+data is timestamped then two arrays are
+an
+object is
+updated along with the fields array
+is set to true
+is
+UPDATED 
+TO MAKE
+color assignment to different location within code
+create a separate function and remove from data field constructor change dat  a structure so that the time data is
+that each object contains one reading of each type time                        from each field rather than have the date
+be field based 
+Variable that is returned by the function 
+catch                                                                                                                                                                                  
+STRING
+delimeter
+order for BufferedReader to work
+the first line of data should include headers with titles for each field        
+approaches to data reading 
+Creating an object for that include 
+at holds each
+all fields for any given entry
+Creating an object that holds all entries for a given field 
+The first approach enables you
+is more effective but more limiting
+because you can customize the data  type that is holding the information to the
+the specific needs of you
+your application 
+The second approach provides a bit more flexibility in that you can create a generic "field" data type which can be used to read data that has different numbers of fields  Therefore
+when you have data that may shift
+if you want to use the same application for different types
+data that is similarly
+you want to display in a similar manner but that my ay vary this is a good approach to take
+When you have full control of your data and you want to have                     have the 
+and are willing to do the extra customization required for this approach I recommend doing this 
+this way          
+Current project as an example that features both of these approaches  The first approach is used to manage the activity data   where   ile the second approach is used to mang age the main data
+management 
+approaches
+image
+photo 
+increase total readings count                                           
+Activity Activity Data
+One benefit of the field 
+class approach is that if you are trying to compare
+find out which is the peak a
+at are the at   peaks and valleys in the data you can keep all of this calculation within the field object itself  When the objects are created for each entry then this type of calculation has to be done in
+outside of the objects though this is not necessary
+a big drawback  
+The more programming I do
+the more I am coming to understand the importance of the structure or information 
+architecture
+of the applications that I build I have never doubted that this was true especially after working for many years doing marketing for large corporations such as
+technology companies such as IBM Microsoft and HP however I n know I have a first hand understanding of how this is so   
+concatenate string in java
+long startTime
+startTime
+long endTime 
+description 
+terminal
+Discussion
+The top level navigation will vary depending on the type of person who is viewing the user
+accessing 
+a given page
+There are three main
+user classes
+non-em  members
+member
+and  managers
+FarmBridge
+Each subsequent class will have access to more choices on the top level navigation
+The non-ma embers will
+see only one option in the top-level navigation
+and members o and manager who are not logged-in                                                       sign-in/log-out
+All top level navigation bars will feature a CSA FarmBridge logo                                      as well as
+Members who are logged in will
+receive
+see three additional options underneath
+the log and sign
+log-in
+log-out logo
+links
+My CSA 
+My Proc file and People
+Manager who are logged in will see one additional option in this  first        added to the member links  Manager Tools        
+TOP LEVEL NAVITA  GATION        
+manager
+will also have access to a 2nd level navigation bar that features
+options that are  
+only available to CSA managers
+These options include  Season
+Vendor Set-up
+Member a
+Payment Tracking Works shifts Management Weekly Distribution
+are
+FarmBridge
+Understanding the Site PAth
+Structure
+Manager & CSA Creating
+LOOP
+MAIN APP LOOP
+Loop
+Manager signed-up and log-in happens at
+session
+signup
+session
+login
+CSA
+creation
+on and editing happens at  
+csa new
+csa edit
+Memeber
+Intake Loop
+Membership sign-up page for
+for new members who will usually arrive from an email happens at  memberships/new u often this URL will look like 
+new
+the last
+first
+last element 
+vendors
+what about vendors that have their own site with more options                                                                    usually show-up two elements are the prefer to the path on 
+visible on text mate the first two elements refer to the group to which this URL related
+FarmBridge
+CSA dashboard view
+payment tracking
+view h happens at  manager
+csa
+show
+Membership e information
+changing can  happen at  memberships
+edit
+NOTE REGARD 
+Break
+rails server
+local
+users
+rails stop
+exit
+cd FarmBridge
+cd  
+cd   
+cd     
+migrate
+ressetting
+the
+time
+the structure of the database is 
+migrate
+rake       
+changed we need to delete the old database structure i and crate the             in order to create
+the new one  
+here is an overview of the
+how you do this
+ are the two commands that you need to input
+Here is how you do this
+first go to the appropriate directory on your hard 
+computer
+next  
+enter the command 
+migrate VERSION
+and hit return
+Last enter the following command 
+migrate
+and high
+return    
+rails server
+memberships
+show
+csas
+new
+LES CSA Good vegies
+csas
+session
+signup
+new
+users/new
+julio
+csas
+new
+LES CSA test test  
+pull
+mate  
+pull
+git clone                                                                 cd   
+cd   
+git clone
+cd
+FarmBridge
+cd
+mate  
+CSA
+Set
+CSA Farm Info
+Step 3
+Additional Farm Info
+Vendor Info                                                                                                                                       Set Up You
+migrate
+rails
+server
+csas
+new
+Click here for
+to look at a sample
+CSA description
+To create a
+a CSA you can begin by
+The first
+to create a
+your CSA is to write
+provide a description and basic information
+View as here
+CSA
+complete
+provide some
+write
+and  When he logs into FarmBridge he
+for the first time 
+for manager
+CSA managers
+the page prompts him to
+set up a CSA and provides
+him with a video that takes him the rough the three steps
+link to process for setting up a CSA  Learn how to set-up a
+Setting up a CSA is
+on FarmBridge is easy  by
+watching this 
+short 
+Video 
+to Go Here
+Set Up Your
+Three Easy 
+Now 
+To
+If you are ready to get started setting up your CSA
+just click here
+Jump into step      
+the content of
+this page will vary based on whether the user has set-up CSA          already set-up a CSA
+For
+Once
+This page will provide relevant links for CSA managers
+content  to based on their current CSA set-up needs CSA set-up   member tracking etc                              
+The content sample below assumes the users
+is is a users 's first
+user has not yet set-up a CSA and that is a new user who has not yet set-up a CSA
+The top navigation bar features
+the following links  The last link is highlighted because 
+he is currently in the manager section of the website                                               
+on FarmBridge  He is has logged in through the generic                     through the 
+FarmBridge com because he wants to set-up his own CSA       
+After watching the short video
+Biggie
+hE  clicks on the link
+to start working
+setting up his CSA in FarmBridge
+He know
+From the copy on the main page he knows that this is  a cthe first step      of a three step process
+community
+watching the video and the
+He lands on the
+first step of the process
+that captures
+regarding his CSA  Once he completes this information he clicks on the button to go to step
+where he will have a chance to input information regarding this CSA's farm
+such as his CSA's name a description of
+and location information e g  city state neighborhood and zip codew where he inputs
+contact information
+step
+Here
+will
+such as the farm name farmer name farmer contact email and phone
+and address
+After
+At this point
+Biggie sees that he can save the information
+or continue
+add addition
+other  
+vendors
+he has input so
+us far
+He decides to other
+to other a few other vendors
+a baker and a fruit share farm
+He star
+He looks
+notice
+so he clicks the button to go to step
+He notices that there is a list of vendors                                         wants to  option for his CSA 
+shareholders  He clicks
+fills out the information for the first vendor
+which includes vendor name contact
+name vendor
+contact info name and phone
+email and phone and vendor address
+He then clicks the button to add more vendor
+another vendor and another 
+set of vendor input fields come up on the screen  He fill  out the required information and then clicks on the
+Rewrote the story to make it more of narrative  qit add    
+git commit
+"more updates to CSA sign-up page and member
+user index page"
+git push
+from NYC
