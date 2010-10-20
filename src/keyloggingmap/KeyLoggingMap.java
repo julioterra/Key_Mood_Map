@@ -1,10 +1,19 @@
 package keyloggingmap;
 
+/*********************
+ * Key Logging Map Sketch, by Julio Terra
+ * 
+ * Treemap library is required for this sketch. Download from Ben Fry's website at: 
+ * - http://benfry.com/writing/ treemap/library.zip
+ * Code extended from code developed by Ben Fry.
+ * 
+ ********************/
+
+
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
-
 import processing.core.PApplet;
 import processing.core.PFont;
 import quicktime.app.spaces.Collection;
@@ -18,43 +27,49 @@ public class KeyLoggingMap extends PApplet {
 	public void setup() {
 	  size(1024, 600);
 
-	  smooth();
-	  strokeWeight(0.25f);
-	  PFont font = createFont("Serif", 13);
-	  textFont(font);
-
 	  WordMap mapData = new WordMap();  
-	  String[] lines = loadStrings("out_logFile.txt");
 
+	  // load text file into an array of strings
+	  String[] lines = loadStrings("out_logFile.txt");
+	  // create list of words to omit from analysis
+	  String[] omitWords = {"this", "that", "to", "then", "the", ".jpg", "than", "these", "and", "for", 
+			  				"from", "with", "here", "has", "but", "are", "when", "where", "who", "how", 
+			  				"was", "can", "what", "his", "you"};
+	 
+	  // loop through each of entry in the lines array and split each line into individual words
 	  for (int i = 0; i < lines.length; i++) {
-		  String[] indWords = split(lines[i]," ");
-		  for (int j = 0; j < indWords.length; j++) {
-			  String cleanWords = trim(indWords[j]);
-			  cleanWords = cleanWords.toLowerCase();
-			  if (cleanWords.length() > 2 && !cleanWords.equals("this") && !cleanWords.equals("that") 
-				  && !cleanWords.equals("to") && !cleanWords.equals("then") && !cleanWords.equals("the")
-				  && !cleanWords.equals(".jpg") && !cleanWords.equals("than") && !cleanWords.equals("these")
-				  && !cleanWords.equals("and") && !cleanWords.equals("for") && !cleanWords.equals("from")
-				  && !cleanWords.equals("with") && !cleanWords.equals("here") && !cleanWords.equals("has")
-				  && !cleanWords.equals("but") && !cleanWords.equals("are") && !cleanWords.equals("when")
-				  && !cleanWords.equals("where") && !cleanWords.equals("who") && !cleanWords.equals("how"))
-			  mapData.addWord(cleanWords);			  
+		  String[] words = split(lines[i]," ");
+		  // loop through each word in the words array 
+		  for (int j = 0; j < words.length; j++) {
+			  String cleanWords = trim(words[j]);			// clean the words by removing commas, and periods
+			  cleanWords = cleanWords.toLowerCase();		// make the word lower case
+			  boolean addWord = true;						// set addWord flag to true
+			  for (int k = 0; k < omitWords.length; k++)	// compare word against each word in the omitWords array
+				  if (omitWords[k].equals(cleanWords)) addWord = false;		// set addWords to false if word exists in the omitWords array
+			  // if word is longer than two characters and addWord equals true then add word to map
+			  if (cleanWords.length() > 2 && addWord == true) {		
+				  mapData.addWord(cleanWords);			 
+				  addWord = true;
+			  }
 		  }
 	  }
+	  // confirm that all data has been updated
 	  mapData.finishAdd();
 
-	    // different choices for the layout method
-//	    MapLayout algorithm = new SliceLayout();
-//	    MapLayout algorithm = new StripTreemap();
-//	    MapLayout algorithm = new PivotBySplitSize();
-	    MapLayout algorithm = new SquarifiedLayout();
-
 	  map = new Treemap(mapData, 0, 0, width, height);
-	  map.setLayout(algorithm);
+
+	    // different choices for the layout method
+		//	    MapLayout algorithm = new SliceLayout();
+		//	    MapLayout algorithm = new StripTreemap();
+		//	    MapLayout algorithm = new PivotBySplitSize();
+		//	    MapLayout algorithm = new SquarifiedLayout();
+	    // map.setLayout(algorithm);
 	  
 	  // only run draw() once
-	  mapData.printScreen();
 	  noLoop();
+	  // print list of all words along with number of occurrences to the console
+	  mapData.printScreen(); 
+
 	}
 
 
@@ -64,11 +79,12 @@ public class KeyLoggingMap extends PApplet {
 	}
 	
 	
+	// Create the WordItem Class as an extension of the SingleMapItem class
 	class WordItem extends SimpleMapItem {
 		  String word;
 		  protected double instances;
 		  protected double minInstances;
-
+		  protected int color; 
 
 		  WordItem(String word) {
 		    this.word = word;
@@ -81,20 +97,28 @@ public class KeyLoggingMap extends PApplet {
 			  	} else {
 			  		size = 0;
 			  	}
-
 			}
 		  
 		  public void draw() {
-		    fill(255);
-		    rect(x, y, w, h);
 
-		    fill(0);
-		    if (w > textWidth(word) + 6) {
-		      if (h > textAscent() + 6) {
-		        textAlign(CENTER, CENTER);
-		        text(word, x + w/2, y + h/2);
-		      }
-		    }
+			  smooth();
+			  strokeWeight(0.25f);
+			  colorMode(HSB, 100);			
+			  fill(0, (float)(70+size),(float)(100-size/2));
+			  stroke(0, 0, 100);
+			  rect(x, y, w, h);
+
+			  PFont font = createFont("Serif", (int)(12+size/2));
+			  textFont(font);
+			  colorMode(RGB, 255, 255, 255);		    
+			  fill(255);
+
+			  if (w > textWidth(word) + 6) {
+				  if (h > textAscent() + 6) {
+					  textAlign(CENTER, CENTER);
+					  text(word, x + w/2, y + h/2);
+				  }
+			  }
 		  }
 	}
 	
@@ -118,7 +142,6 @@ public class KeyLoggingMap extends PApplet {
 		    
 		  public void finishAdd() {
 		    items = new WordItem[words.size()];
-//		    bounds = new Rect[words.size()];
 		    words.values().toArray(items);
 		  }
 		  
@@ -129,7 +152,6 @@ public class KeyLoggingMap extends PApplet {
 			    	WordItem item = (WordItem) words.get(indexString);
 			    	System.out.println("WORD: " + indexString + "  " + (item.getSize()));
 		   		}
-//			   System.out.println(bounds.x);
 		  }
 	}
 }
