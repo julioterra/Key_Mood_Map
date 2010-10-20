@@ -23,9 +23,9 @@ public class KeyLoggingMap extends PApplet {
 	  PFont font = createFont("Serif", 13);
 	  textFont(font);
 
-	  WordMap mapData = new WordMap();
-	    
+	  WordMap mapData = new WordMap();  
 	  String[] lines = loadStrings("out_logFile.txt");
+
 	  for (int i = 0; i < lines.length; i++) {
 		  String[] indWords = split(lines[i]," ");
 		  for (int j = 0; j < indWords.length; j++) {
@@ -44,14 +44,14 @@ public class KeyLoggingMap extends PApplet {
 	  mapData.finishAdd();
 
 	    // different choices for the layout method
-	    //MapLayout algorithm = new SliceLayout();
-	    //MapLayout algorithm = new StripTreemap();
-	    //MapLayout algorithm = new PivotBySplitSize();
-	    //MapLayout algorithm = new SquarifiedLayout();
+//	    MapLayout algorithm = new SliceLayout();
+//	    MapLayout algorithm = new StripTreemap();
+//	    MapLayout algorithm = new PivotBySplitSize();
+	    MapLayout algorithm = new SquarifiedLayout();
 
 	  map = new Treemap(mapData, 0, 0, width, height);
-
-//	  mapData.printWords();
+	  map.setLayout(algorithm);
+	  
 	  // only run draw() once
 	  mapData.printScreen();
 	  noLoop();
@@ -63,13 +63,27 @@ public class KeyLoggingMap extends PApplet {
 	  map.draw();
 	}
 	
+	
 	class WordItem extends SimpleMapItem {
 		  String word;
+		  protected double instances;
+		  protected double minInstances;
+
 
 		  WordItem(String word) {
 		    this.word = word;
 		  }
 
+		  public void incrementSize() {
+			  	instances++;
+			    if (instances > 3) { 
+			    	size++; 
+			  	} else {
+			  		size = 0;
+			  	}
+
+			}
+		  
 		  public void draw() {
 		    fill(255);
 		    rect(x, y, w, h);
@@ -82,7 +96,9 @@ public class KeyLoggingMap extends PApplet {
 		      }
 		    }
 		  }
-		}
+	}
+	
+	
 	
 	class WordMap extends SimpleMapModel {    
 		  public HashMap words;
@@ -102,16 +118,18 @@ public class KeyLoggingMap extends PApplet {
 		    
 		  public void finishAdd() {
 		    items = new WordItem[words.size()];
+//		    bounds = new Rect[words.size()];
 		    words.values().toArray(items);
 		  }
 		  
 		  void printScreen() {
 			   Iterator iterator = words.keySet().iterator();
-			    while( iterator. hasNext() ){
+			   while( iterator. hasNext() ){
 			    	String indexString = (String) iterator.next();
 			    	WordItem item = (WordItem) words.get(indexString);
 			    	System.out.println("WORD: " + indexString + "  " + (item.getSize()));
-			    }
+		   		}
+//			   System.out.println(bounds.x);
 		  }
 	}
 }
